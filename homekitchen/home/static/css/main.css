@@ -58,7 +58,7 @@ body{
   border-top-style:solid;
   border-block-width:thick;
   margin-top: 3rem;
-  padding-top: 2rem;
+  padding-top: 2rem; 
 }
 #logoo{
   background-image: url("/static/images/mainlogo.png");
@@ -69,6 +69,16 @@ body{
     /* background-position: center top; */
     color: black;     
     height: 12rem;  
+}
+
+.sampleimg{
+  width: 100%;
+  height: 100%;
+}
+#footerlogo{
+  width:50%;
+   background-color: rgb(75, 75, 110);
+   padding: 2rem;
 }
 
 
@@ -219,3 +229,90 @@ body {
 {
 max-height:30rem;
 }
+
+/* -----------------------responsive--------------------------- */
+
+@media only screen and (max-width: 992px) {
+  .brr{
+    border-top-color: darkblue;
+  }
+  .column {
+    height: 9rem;
+  }
+  .hii{
+    background-size: 4rem auto;
+    
+  } 
+  }
+  @media only screen and (max-width: 768px) {
+    .brr{
+      border-top-color: darkorchid;
+    }
+    .column {
+      height: 7rem;
+      width: 50%;
+  }
+  #topheader{
+    position: static;
+  }
+  #mainheader{
+    position: static;
+  }
+  #footerlogo{
+    width: 75%;
+    padding: 0.5rem;
+  }
+  .hii{
+    background-size: 4rem auto;
+    background-position: center;
+  }
+  body{
+    font-size: 10px;
+  }
+    }
+  @media only screen and (max-width: 576px) {
+    .brr{
+      border-top-color: darkgreen;
+    }
+    .column {
+      height: 7rem;
+      width: 50%;
+  }
+  #topheader{
+    position: static;
+  }
+  #mainheader{
+    position: static;
+  }
+  #footerlogo{
+    width: 75%;
+    padding: 0.5rem;
+  }
+  .hii{
+    background-size: 2.8rem auto;
+
+    background-position-y: 1rem;
+    
+    height: 6rem;
+    
+    margin-bottom: 0.5rem;
+  }
+  h1, .h1 {
+
+    font-size: 1.5rem;
+
+}
+h2, .h2 {
+
+  font-size: 1.3rem;
+
+}
+h6, .h6 {
+
+  font-size: 0.8rem;
+
+}
+  body{
+    font-size: 10px;
+  }
+    }
