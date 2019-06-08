@@ -79,6 +79,12 @@ body{
   width:50%;
    background-color: rgb(118, 31, 31,1);
    padding: 2rem;
+   transition: 0.3s;
+}
+#footerlogo:hover{
+  /* width:60%; */
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+  color: blue;
 }
 
 /* ------------------- ul header--------------------------- */
@@ -108,9 +114,9 @@ body{
 }
 
 .liheader a:hover {
-  /* background-color: #a7a7a7; */
-  color: darkred;
-  font-size: 20px;
+  background-color: darkred;
+  color: whitesmoke;
+  /* font-size: 20px; */
   text-decoration: none;
 }
 /* -----------------------modalgallery------------------ */
