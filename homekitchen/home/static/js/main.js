@@ -2,16 +2,16 @@ $(window).scroll(function() {
 
     //After scrolling 100px from the top...
     if ( $(window).scrollTop() >= 150 ) {
-        $('.hii').css('background-size', '7rem');
+        $('.hii').css('background-size', '2.8rem');
         $('.hii').css('background-position-y', '0.1rem');
 
-        $('#mainheader').css('height', '5rem');
+        $('.hii').css('height', '5rem');
 
     //Otherwise remove inline styles and thereby revert to original stying
     } else {
-        $('.hii').css('background-size', '13rem'); 
+        $('.hii').css('background-size', '5rem'); 
         $('.hii').css('background-position-y', '1rem');
-        $('#mainheader').css('height', '10rem');
+        $('.hii').css('height', '10rem');
 
     }
 });

@@ -27,6 +27,7 @@ SECRET_KEY = 'ael5!xc0=l%&=$v+zzb+1)*6z&f!^(e4si6$soed#3_3&)0m(i'
 DEBUG = True
 
 ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = ['smm200.ir','www.smm200.ir']
 
 
 # Application definition
@@ -120,3 +121,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+# MEDIA_URL = '/media'
+# STATIC_ROOT = '/home/smmir/public_html/static'
+# MEDIA_ROOT = '/home/smmir/public_html/media'
