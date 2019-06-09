@@ -14,7 +14,7 @@ def index(request, post_id=""):
       'ourProjects':"OUR PROJECTS",
       'Contactus':"CONTACT US",
       'languge':False,
-      'hreflanguge':"../",
+      'hreflanguage':"../",
     #   '':"",
     #   '':"",
     #   '':"",
@@ -34,7 +34,7 @@ def index(request, post_id=""):
             'ourProjects':"پروژه های اجرا شده",
             'Contactus':"تماس با ما",
             'languge':True,
-            'hreflanguge':"en",
+            'hreflanguage':"en",
         }  
 
     return render(request, 'index.html', context)
