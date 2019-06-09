@@ -6,7 +6,7 @@ app_name='home'
 urlpatterns = [
 
     path('', views.index , name='index'),
-    # path('<int:post_id>', views.detail , name='detail'),
+    path('<str:post_id>/', views.index , name='index'),
     # path('archive/<int:year>', views.archive , name='archive'), 
  
 ]
