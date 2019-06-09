@@ -282,6 +282,9 @@ max-height:30rem;
   .mySlides img {
     max-height: 25rem;
   }
+  .liheader {   
+    font-size: 0.9rem;
+}
   }
   @media only screen and (max-width: 768px) {
     .brr{
@@ -307,6 +310,9 @@ max-height:30rem;
   }
   .mySlides img {
     max-height: 15rem;
+  }
+  .liheader {   
+    font-size: 0.75rem;
   }
   body{
     font-size: 10px;
