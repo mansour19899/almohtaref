@@ -4,15 +4,13 @@
 
 <div class="container-fluid text-center" style="padding-top: 3rem;">
   <div>
-    <h1>OUR COLLECTIONS</h1>
-    <h6>If you are looking for modern, transitional or traditional design that are as exquisite as functional;
-    Let Us Make Your Home Unique. </h6>
-    <h6>A look you’re sure to love and the quality you deserve.</h6>
+    <h1 id="step1">{{ourcollections}}</h1>
+    <h5>{{ourcollectionsdetail}}</h5>
   </div>
 
 </div>
 <div id=samplepicture class="brr">
-    <h2 style="text-align:center">OUR PROJECTS</h2>
+    <h2  style="text-align:center">{{ourProjects}}</h2>
 
     <div class="row d-flex justify-content-around">
       <div class="column">
@@ -46,7 +44,7 @@
             <img src="{% static 'images/pic10.jpg' %}"  onclick="openModal();currentSlide(10)" class="hover-shadow cursor sampleimg">
         </div>
         <div class="column">
-            <img src="{% static 'images/pic11.JPG' %}"  onclick="openModal();currentSlide(11)" class="hover-shadow cursor sampleimg">
+            <img src="{% static 'images/pic11.jpg' %}"  onclick="openModal();currentSlide(11)" class="hover-shadow cursor sampleimg">
           </div>
           <div class="column">
             <img src="{% static 'images/pic12.jpeg' %}"  onclick="openModal();currentSlide(12)" class="hover-shadow cursor sampleimg">
@@ -80,7 +78,7 @@
             </div>
     </div>
     
-    <div id="myModal" class="modal">
+    <div id="myModal" class="modal" style="direction: ltr;">
       <span class="close cursor" onclick="closeModal()">&times;</span>
       <div class="modal-content">
     
@@ -166,22 +164,27 @@
                 </div>
             
                 <div class="mySlides rounded mx-auto">
-                  <div class="numbertext">18 / 4</div>
+                  <div class="numbertext">18 / 20</div>
                   <img src="{% static 'images/pic18.jpeg' %}" style="width:auto">
                 </div>
             
                 <div class="mySlides rounded mx-auto">
-                  <div class="numbertext">19 / 4</div>
-                  <img src="{% static 'images/pic11.jpeg' %}" style="width:auto">
+                  <div class="numbertext">19 / 20</div>
+                  <img src="{% static 'images/pic19.jpeg' %}" style="width:auto">
                 </div>
                 
                 <div class="mySlides rounded mx-auto ">
-                  <div class="numbertext">20 / 4</div>
-                  <img src="{% static 'images/pic11.jpg' %}" style="width:auto">
+                  <div class="numbertext">20 / 20</div>
+                  <img src="{% static 'images/pic20.jpg' %}" style="width:auto">
                 </div>
+        <div class="prev">
+          <a  onclick="plusSlides(-1)">&#10094;</a>
+        </div>
+        <div class="next">
+          <a  onclick="plusSlides(1)">&#10095;</a>
+        </div>
         
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+       
     
         <div class="caption-container">
           <p id="caption"></p>

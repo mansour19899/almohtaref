@@ -1,22 +1,38 @@
 {% load static %}
 <header id=mainheader>
    <div class="row">
-    <div class="col-md-3 hii"  >
+    <div id="headerlogoo" class="col-6 col-sm-3 hii"  >
        
     </div>
-    <div  class="col-md-9 hiii " >
+    <div  class=" col-sm-9 hiii " >
        <nav >
           <div id="myNavbar">
                <ul id="ulheader">
                      <li class="liheader"><a href="#aboutas">{{AboutUs}}</a></li>
-                     <li class="liheader"><a href="#samplepicture">{{ourProjects}}</a></li>
+                     <li class="liheader"><a href="#step1">{{ourProjects}}</a></li>
                      <li class="liheader"><a href="#contactus">{{Contactus}}</a></li>
-                     <li id="lilanguage" class="liheader"><a href={{hreflanguage}}></a></li>
+                     <li id="lilanguage" class="liheader"><a href={{hreflanguage}}>{{langugee}}</a></li>
                  </ul>
           </div>
             
        </nav>
        
    </div>
+   
 </div>
+<div class="mobile-container">
+
+      <!-- Top Navigation Menu -->
+      <div class="topnav">
+        <a href="#home" class="activee hii"></a>
+        <div id="myLinks" style={{textalign}}>
+          <a href="#aboutas">{{AboutUs}}</a>
+          <a href="#step1">{{ourProjects}}</a>
+          <a href="#contactus">{{Contactus}}</a>
+          <a href={{hreflanguage}}>{{langugee}}</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i id="menumobile" class="material-icons" style="font-size:48px;color:darkred">menu</i>
+        </a>
+      </div>
 </header>
