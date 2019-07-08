@@ -30,6 +30,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     position: fixed;
     top:1.8rem;
     z-index: 101;
+    padding-top: 1rem;
     
 }
 
@@ -364,6 +365,7 @@ max-height:37rem;
   }
   .hii{
     background-size: 4rem auto;    
+    height: 8rem;
   } 
   .mySlides img {
     max-height: 25rem;

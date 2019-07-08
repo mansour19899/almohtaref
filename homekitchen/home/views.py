@@ -18,7 +18,7 @@ def index(request, post_id=""):
       'hreflanguage':"../",
       'dirction':"ltr",
       'ourcollections':"OUR COLLECTIONS",
-      'ourcollectionsdetail':"If you are looking for modern, transitional or traditional design that are as exquisite as functional;Let Us Make Your Home Unique.A look you’re sure to love and the quality you deserve.",
+      'ourcollectionsdetail':"<h5>If you are looking for modern, transitional or traditional design that are as exquisite as functional;Let Us Make Your Home Unique.A look you’re sure to love and the quality you deserve.</h5>",
       'textalign':"text-align:left;",
       'textalign':"text-align:left;",
       'textalign':"text-align:left;",
@@ -51,8 +51,7 @@ def index(request, post_id=""):
             'dirction':"rtl",
             'textalign':"text-align:right;",
             'ourcollections':"كيف تطورت تصاميم المطبخ؟ ",
-            'ourcollectionsdetail':"تصميم المطبخ الذي تراه كل يوم لم يكن موجود في الجزء الأول من القرن الماضي. إن ولادة العمارة الحديثة والتقدم التكنولوجي أثروا بشكل كبير على تصاميم المطبخ. حتى المنازل الكلاسيكية لديها مطابخ الحديثة التي هي بالطبع مصممة في تناغم مع البيئة الداخلية.   وقد زينت هذه المساحة الآن بأثاث عصري وأحدث الأجهزة التي لم يشاهدها أحد أبدا قبل نصف قرن. التجريب مع التخطيطات والمواد جلبت المزيد من التغييرات في هذا الفراغ. كل هذا يعني أن لديك مرونة أكبر لتصميم هذا المكان الحيوي من المنزل.",
-      
+            'ourcollectionsdetail':"<h6>تصميم المطبخ الذي تراه كل يوم لم يكن موجود في الجزء الأول من القرن الماضي. إن ولادة العمارة الحديثة والتقدم التكنولوجي أثروا بشكل كبير على تصاميم المطبخ. حتى المنازل الكلاسيكية لديها مطابخ الحديثة التي هي بالطبع مصممة في تناغم مع البيئة الداخلية.   وقد زينت هذه المساحة الآن بأثاث عصري وأحدث الأجهزة التي لم يشاهدها أحد أبدا قبل نصف قرن. التجريب مع التخطيطات والمواد جلبت المزيد من التغييرات في هذا الفراغ. كل هذا يعني أن لديك مرونة أكبر لتصميم هذا المكان الحيوي من المنزل.</h6>;"
 
         }  
 
